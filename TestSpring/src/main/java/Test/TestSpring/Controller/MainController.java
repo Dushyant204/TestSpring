@@ -21,9 +21,10 @@ public class MainController {
 	public ModelAndView getPage() {
 		ModelAndView mv=new ModelAndView("Page");
 		mv.addObject("key","hello fiends");
+		System.out.println("key has been added");
 		return mv;
 	}
-	
+	 
 	
 	// need to add jackson support dependency at POM file..
 	@ResponseBody
@@ -34,6 +35,7 @@ public class MainController {
 		ls.add("Amit");
 		ls.add("Rahul");
 		ls.add("Sunil");
+		System.out.println("List have been  added");
 		return ls;
 	}
 }
