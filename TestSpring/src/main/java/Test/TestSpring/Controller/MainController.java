@@ -37,6 +37,7 @@ public class MainController {
 		ls.add("Rahul");
 		ls.add("Sunil");
 		System.out.println("List have been  added");
+		System.out.println("List have been  added");
 		return ls;
 	}
 }
