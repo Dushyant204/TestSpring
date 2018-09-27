@@ -22,6 +22,7 @@ public class MainController {
 		ModelAndView mv=new ModelAndView("Page");
 		mv.addObject("key","hello fiends");
 		System.out.println("key has been added");
+		System.out.println("key has been added");
 		return mv;
 	}
 	 
